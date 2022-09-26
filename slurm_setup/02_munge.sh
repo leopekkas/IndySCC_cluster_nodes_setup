@@ -10,11 +10,17 @@ yum install munge munge-libs munge-devel -y
 #####
 #####
 
-cp /home/cc/slurm_setup/munge.key /etc/munge
+/usr/sbin/create-munge-key
+
+#cp /home/cc/slurm_setup/munge.key /etc/munge
 
 chown -R munge: /etc/munge/ /var/log/munge/ /var/lib/munge/ /run/munge/
 chmod 0700 /etc/munge/ /var/log/munge/ /var/lib/munge/ /run/munge/
 chmod 711 /run/munge/
 
+systemctl stop getty@ttyS1
+systemctl disable getty@ttyS1
+
 systemctl enable munge
 systemctl start munge
+systemctl status munge
