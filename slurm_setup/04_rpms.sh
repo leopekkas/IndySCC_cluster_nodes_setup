@@ -5,6 +5,8 @@ cd /home/cc/slurm_setup/rpms
 yum install perl openssl openssl-devel pam-devel rpm-build numactl numactl-devel hwloc hwloc-devel lua lua-devel readline-devel rrdtool-devel ncurses-devel man2html libibmad libibumad -y
 wget https://download.schedmd.com/slurm/slurm-22.05.3.tar.bz2
 
+yum install gcc -y
+
 rpmbuild -ta slurm-22.05.3.tar.bz2
 
 yum --nogpgcheck localinstall slurm-* -y

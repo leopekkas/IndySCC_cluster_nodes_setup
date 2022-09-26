@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd /tmp/initial_setup
+./intel_mpi_setup.sh
 ./setup.sh
 ./users.sh
 
@@ -9,5 +10,6 @@ cd ~cc/slurm_setup/
 
 ./01_users.sh
 ./02_munge.sh
-./03_rpms.sh
-./04_slurm.sh
+./03_mariadb.sh
+./04_rpms.sh
+./05_slurm.sh
