@@ -18,9 +18,6 @@ chown -R munge: /etc/munge/ /var/log/munge/ /var/lib/munge/ /run/munge/
 chmod 0700 /etc/munge/ /var/log/munge/ /var/lib/munge/ /run/munge/
 chmod 711 /run/munge/
 
-systemctl stop getty@ttyS1
-systemctl disable getty@ttyS1
-
 systemctl enable munge
 systemctl start munge
-systemctl status munge
+#systemctl status munge
