@@ -7,6 +7,10 @@ wget https://download.schedmd.com/slurm/slurm-21.08-latest.tar.bz2
 
 rpmbuild -ta slurm-21.08-latest.tar.bz2
 
+cd /root/rpmbuild/RPMS/x86_64/
+
 yum --nogpgcheck localinstall slurm-* -y
 
 echo "Please create the mysql database"
+
+echo "\nPlease change the host address for the master node in the 05 scripts, and in /etc/slurm/slurm.conf"

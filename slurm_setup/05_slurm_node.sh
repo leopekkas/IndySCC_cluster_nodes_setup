@@ -1,13 +1,13 @@
 # Every node should have the same copy of slurm.conf. If you change it, be sure to copy it around
 echo "AuthType=auth/munge
-  DbdAddr=192.168.1.250
-  DbdHost=master0
+  DbdAddr=127.0.0.1
+  DbdHost=login-node
   SlurmUser=slurm
   DebugLevel=4
   LogFile=/var/log/slurm/slurmdbd.log
   PidFile=/var/run/slurmdbd.pid
   StorageType=accounting_storage/mysql
-  StorageHost=master0
+  StorageHost=login-node
   StoragePass=some_pass
   StorageUser=slurm
   StorageLoc=slurm_acct_db" >> /etc/slurm/slurmdbd.conf
