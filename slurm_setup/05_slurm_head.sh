@@ -24,6 +24,6 @@ touch /var/log/slurm/slurmctld.log
 touch /var/log/slurm/slurm_jobacct.log /var/log/slurm/slurm_jobcomp.log
 chown -R slurm:slurm /var/log/slurm/
 
-systemctl enable slurmd.service
-systemctl start slurmd.service
-systemctl status slurmd.service
+systemctl enable slurmctld.service
+systemctl start slurmctld.service
+systemctl status slurmctld.service
