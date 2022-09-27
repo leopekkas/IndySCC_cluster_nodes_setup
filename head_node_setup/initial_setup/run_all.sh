@@ -12,4 +12,4 @@ cd ~cc/slurm_setup/
 ./02_munge.sh
 ./03_mariadb.sh
 ./04_rpms.sh
-./05_slurm.sh
+./05_slurm_head.sh
