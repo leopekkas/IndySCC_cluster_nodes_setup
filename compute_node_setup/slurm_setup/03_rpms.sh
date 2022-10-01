@@ -3,7 +3,7 @@ mkdir -p /home/cc/slurm_setup/rpms
 cd /home/cc/slurm_setup/rpms
 
 yum install perl openssl openssl-devel pam-devel rpm-build numactl numactl-devel hwloc hwloc-devel lua lua-devel readline-devel rrdtool-devel ncurses-devel man2html libibmad libibumad mysql-devel -y
-#wget https://download.schedmd.com/slurm/slurm-22.05.3.tar.bz2
+wget https://download.schedmd.com/slurm/slurm-22.05.3.tar.bz2
 
 rpmbuild -ta slurm-22.05.3.tar.bz2
 
