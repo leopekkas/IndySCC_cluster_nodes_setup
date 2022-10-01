@@ -12,8 +12,8 @@ yum install tk tcl tcsh -y
 mkdir -p /apps
 
 # /etc/fstab tells the OS what to mount
-echo "login-node:/home /home nfs defaults 0 0" >> /etc/fstab
-echo "login-node:/apps /apps nfs defaults 0 0" >> /etc/fstab
+echo "revontuli-hpl-instance:/home /home nfs defaults 0 0" >> /etc/fstab
+echo "revontuli-hpl-instance:/apps /apps nfs defaults 0 0" >> /etc/fstab
 
 mount -a
 

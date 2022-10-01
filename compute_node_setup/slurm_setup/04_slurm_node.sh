@@ -1,6 +1,6 @@
 # Every node should have the same copy of slurm.conf. If you change it, be sure to copy it around
 echo "AuthType=auth/munge
-  DbdAddr=127.0.0.1
+  DbdAddr=10.20.30.52
   DbdHost=login-node
   SlurmUser=slurm
   DebugLevel=4
