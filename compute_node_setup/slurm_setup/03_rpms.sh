@@ -11,6 +11,4 @@ cd /root/rpmbuild/RPMS/x86_64/
 
 yum --nogpgcheck localinstall slurm-* -y
 
-echo "Please create the mysql database"
-
-echo "\nPlease change the host address for the master node in the 05 scripts, and in /etc/slurm/slurm.conf"
+echo "Please change the host address for the master node in the 05 scripts, and in /etc/slurm/slurm.conf"
