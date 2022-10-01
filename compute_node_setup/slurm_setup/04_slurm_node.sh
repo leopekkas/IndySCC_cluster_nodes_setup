@@ -26,4 +26,3 @@ chown -R slurm:slurm /var/log/slurm/slurmd.log
 
 systemctl enable slurmd.service
 systemctl start slurmd.service
-systemctl status slurmd.service
