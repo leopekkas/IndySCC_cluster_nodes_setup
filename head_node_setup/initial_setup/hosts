@@ -1,6 +1,6 @@
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-10.20.29.102 revontuli-hpl-instance
+10.20.29.137 revontuli-hpl-instance
 10.20.30.108    cnode-1
 10.20.31.183    cnode-2
 10.20.29.138    cnode-3

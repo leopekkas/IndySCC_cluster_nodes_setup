@@ -1,6 +1,6 @@
 # Every node should have the same copy of slurm.conf. If you change it, be sure to copy it around
 echo "AuthType=auth/munge
-  DbdAddr=10.20.29.102
+  DbdAddr=10.20.29.137
   DbdHost=revontuli-hpl-instance
   SlurmUser=slurm
   DebugLevel=4
