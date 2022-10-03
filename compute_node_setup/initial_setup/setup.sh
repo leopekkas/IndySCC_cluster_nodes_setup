@@ -6,6 +6,7 @@ cp /tmp/initial_setup/hosts /etc/
 # Make a list of packages you may need. I like having vim... the others are bare minimum. 
 # I recommend adding others as you find you need here so if you need to reinstall you're not losing anything.
 yum install vim -y
+yum install nano -y
 yum install nfs-utils -y
 yum install tk tcl tcsh -y
 
