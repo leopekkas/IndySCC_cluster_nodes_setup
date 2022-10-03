@@ -11,7 +11,14 @@ yum install tk tcl tcsh -y
 
 mkdir -p /apps
 
+# make an /etc/exports file
+touch /etc/exports
+echo "/home 10.20.28.0/22(rw,sync,no_root_squash)" > /etc/exports
+echo "/apps 10.20.28.0/22(rw,sync,no_root_squash)" >> /etc/exports
+
 # /etc/fstab tells the OS what to mount
+echo "LABEL=cloudimg-rootfs / ext4 defaults 0 1" > /etc/stab
+echo "LABEL=MKFS_ESP /boot/efi vfat defaults 0 2" >> /etc/ftsab
 echo "revontuli-hpl-instance:/home /home nfs defaults 0 0" >> /etc/fstab
 echo "revontuli-hpl-instance:/apps /apps nfs defaults 0 0" >> /etc/fstab
 
