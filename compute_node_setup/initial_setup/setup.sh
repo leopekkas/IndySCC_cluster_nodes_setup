@@ -18,8 +18,8 @@ echo "/home 10.20.28.0/22(rw,sync,no_root_squash)" > /etc/exports
 echo "/apps 10.20.28.0/22(rw,sync,no_root_squash)" >> /etc/exports
 
 exportfs -a
-systemctl enable nfs-kernel-server
-systemctl restart nfs-kernel-server
+systemctl enable nfs-server
+systemctl restart nfs-server
 
 # /etc/fstab tells the OS what to mount
 echo "LABEL=cloudimg-rootfs / ext4 defaults 0 1" > /etc/fstab
