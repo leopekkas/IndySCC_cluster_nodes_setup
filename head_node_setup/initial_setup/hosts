@@ -1,19 +1,18 @@
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 10.20.30.52 revontuli-hpl-instance
-10.20.29.155 compute-node-2
-10.20.28.225    cnode-1
-10.20.28.213    cnode-2
-10.20.29.168    cnode-3
-10.20.29.71     cnode-4
-10.20.31.112    cnode-5
-10.20.29.1      cnode-6
-10.20.28.95     cnode-7
-10.20.31.50     cnode-8
-10.20.31.211    cnode-9
-10.20.29.151    cnode-10
-10.20.28.85     cnode-11
-10.20.28.188    cnode-12
-10.20.29.0      cnode-13
-10.20.30.89     cnode-14
-10.20.28.234    cnode-15
+10.20.30.108    cnode-1
+10.20.31.183    cnode-2
+10.20.29.138    cnode-3
+10.20.29.58     cnode-4
+10.20.29.36     cnode-5
+10.20.29.120    cnode-6
+10.20.29.236    cnode-7
+10.20.29.200    cnode-8
+10.20.29.166    cnode-9
+10.20.30.142    cnode-10
+10.20.29.6      cnode-11
+10.20.29.145    cnode-12
+10.20.28.215    cnode-13
+10.20.31.177    cnode-14
+10.20.31.205    cnode-15
